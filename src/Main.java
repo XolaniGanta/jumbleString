@@ -7,10 +7,10 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter word to jumble: ");
-        String wordToJumble =sc.nextLine();
-       // String wordToJumble = "Xolani!";
+        String word =sc.nextLine();
+
         Long numberOfTimes = 1L;
-        jumbledString( wordToJumble,numberOfTimes);
+        jumbledString( word,numberOfTimes);
 
     }
         public static String jumbledString(String s, Long n) {
